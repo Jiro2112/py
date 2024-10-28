@@ -14,7 +14,15 @@ print(grades.keys())
 #lay ra mot gia tri
 print(grades.values())
 #doc file
-name = open("D:\data.txt")
+name = open("D:\data.txt.txt")
 print(name.read())
 #print(name.readline())
 # print(name.readlines())
+#file input
+name=open("D:\data.txt.txt")
+for line in name:
+    print(line.strip())
+#Ghi file
+Note: can than ko bj ghi de file
+ name = open("D:\data2.txt","w")
+name.write("Name Something")
