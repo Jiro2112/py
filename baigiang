@@ -1,0 +1,20 @@
+mydict={}
+grades={'Ana':'B','John':'A+','Denise':'A','Katy':'A'}
+print(grades['John'])
+grades['Sylvan']='A'
+print(grades['Sylvan'])
+#kiem tra co hay khong trong grades
+print ('John' in grades)
+print('Daniel' not in grades)
+#xoa 1 tp trong qrades
+del(grades['Ana'])
+print(grades)
+#lay ra mot bo cac khoa
+print(grades.keys())
+#lay ra mot gia tri
+print(grades.values())
+#doc file
+name = open("D:\data.txt")
+print(name.read())
+#print(name.readline())
+# print(name.readlines())
